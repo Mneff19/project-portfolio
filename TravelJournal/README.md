@@ -4,7 +4,7 @@ TravelJournal is a simple, interactive app built in React Native. It allows you 
 
 Mobile app development is a field I've always wanted to try but never been sure where to start with. This simple program was the perfect opportunity to bite the bullet and get a leg up on the initial learning curve.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.loom.com/share/04b1ec2f86f4475a8ad1f773e1ca0b54?sid=5b8b5070-753a-45eb-8fb6-01ace17a6b1e)
 
 # Development Environment
 

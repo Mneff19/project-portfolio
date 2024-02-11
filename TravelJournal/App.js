@@ -1,13 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { StyleSheet, Alert, Button, Image, View, Platform } from 'react-native';
+import React, { useState } from 'react';
+import { StyleSheet, Alert } from 'react-native';
 import Header from './components/Header';
 import AddEntry from './components/AddEntry';
 import Entry from './components/Entry';
 import 'react-native-get-random-values';
 import { KeyboardAwareFlatList } from 'react-native-keyboard-aware-scroll-view';
 import { uuid } from 'uuidv4';
-import * as ImagePicker from 'expo-image-picker';
-import ImagePickerExample from './components/ImagePickerExample';
 
 const App = () => {
   const [entries, setEntries] = useState([
