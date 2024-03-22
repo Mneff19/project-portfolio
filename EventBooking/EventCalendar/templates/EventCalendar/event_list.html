@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventBooking | Premiere Event Booking Experience</title>
+    <link rel="stylesheet" href="{% static 'EventCalendar/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>EventBooking | Premiere Event Booking Experience</h1>
+        <nav>
+            <a href="/calendar">See Events</a>
+            <a href="/calendar/create">Add Event</a>
+        </nav>
+    </header>
+    <main class="s-event_list">
+        <h2>Upcoming Events</h2>
+        <p>See the exciting happenings near you!</p>
+        <ul class="event-list">
+        {% for event in object_list %}
+            {% if event.is_past == False %}
+                <li>
+                    <h3>{{ event.event_name }}</h3>
+                    <img src="{{ event.event_img_url }}" alt="Picture of the event">
+                    <p>{{ event.event_desc }}</p>
+                    <div class="bottom-contents">
+                        <span class="guest-counts">Attendees: {{ event.event_guest_count }}</span>
+                        <a class="rsvp" href="{% url 'events:rsvp' event.id %}">RSVP</a>
+                    </div>
+                </li>
+            {% endif %}
+            {% empty %}
+                <li>No upcoming events.</li>
+        {% endfor %}
+        </ul>
+        <h2>Past Events</h2>
+        <ul class="event-list">
+        {% for event in object_list %}
+            {% if event.is_past == True %}
+                <li>
+                    <h3>{{ event.event_name }}</h3>
+                    <img src="https://picsum.photos/500/300" alt="Picture of the event">
+                    <p>{{ event.event_desc }}</p>
+                    <div class="bottom-contents">
+                        <span class="guest-counts">Attendees: {{ event.event_guest_count }}</span>
+                    </div>
+                </li>
+            {% endif %}
+            {% empty %}
+                <li>No past events yet.</li>
+        {% endfor %}
+        </ul>
+    </main>
+    <footer>{{ footerText }}</footer>
+</body>
+</html>

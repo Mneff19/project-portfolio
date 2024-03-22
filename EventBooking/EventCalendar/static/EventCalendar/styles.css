@@ -1,0 +1,141 @@
+/*
+* Global
+*/
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    padding: 72px 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: white;
+    padding-bottom: 36px;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    color: rgb(86, 126, 200);
+    padding: 0 16px;
+}
+
+nav a:visited {
+    color: rgb(86, 126, 200);
+}
+
+main h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+main > p {
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/*
+* event_list
+*/
+.s-event_list {
+    padding: 36px;
+}
+
+.event-list {
+    list-style-type: none;
+    width: fit-content;
+    font-size: 18px;
+    padding: 36px 0;
+    margin: 0 auto;
+}
+
+.event-list li {
+    background-color: rgb(250, 235, 217);
+    border-radius: 16px;
+    width: 40rem;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.event-list li:not(:last-of-type) {
+    margin-bottom: 24px;
+}
+
+.event-list li h3 {
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 24px;
+    margin: 0;
+}
+
+.event-list li img {
+    width: 100%;
+}
+
+.event-list li .guest-counts {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.event-list li .rsvp {
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(86, 126, 200);
+    padding-top: 4px;
+}
+
+/*
+* event_form
+*/
+.s-event_form {
+    padding: 36px;
+}
+
+.s-event_form form {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin: auto;
+}
+
+.s-event_form form label {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.s-event_form form input {
+    width: 100%;
+    height: 50px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.s-event_form form input[type="submit"] {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}

@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventBooking | Premiere Event Booking Experience</title>
+    <link rel="stylesheet" href="{% static 'EventCalendar/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>EventBooking | Premiere Event Booking Experience</h1>
+        <nav>
+            <a href="/calendar">See Events</a>
+            <a href="/calendar/create">Add Event</a>
+        </nav>
+    </header>
+    <main class="s-event_form">
+        <h2>Add a new event</h2>
+        <p>Let people know what's happening!</p>
+        <form method="POST" enctype="multipart/form-data">
+            <!-- Security token -->
+            {% csrf_token %}
+            <!-- Using the formset -->
+            {{ form.as_p }}
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>{{ footerText }}</footer>
+</body>
+</html>
