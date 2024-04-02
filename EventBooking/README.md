@@ -3,8 +3,6 @@ This was a very fun project for me! It is a mock up of an event booking software
 
 I wrote this to give me more experience with web apps, especially those written in Python. I thoroughly enjoyed it!
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
-
 [Software Demo Video](https://www.loom.com/share/27393c5023d74e7b8b844ee4d79ba5aa?sid=d57c5e00-4eda-4d3f-a55a-420addfc0542)
 
 # Web Pages
