@@ -3,8 +3,6 @@ To demonstrate the TypeScript language, I have created a program that interacts 
 
 I was interested in TypeScript because I have worked for years as a website developer, spending most of my time in JavaScript. Having recently learned C++, I was highly intruiged at the idea of a slant language to JavaScript that included strong typing factors similar to C++.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
 [Software Demo Video](https://www.loom.com/share/a932b10530c94444ab322c020a6aa97c?sid=8ce760b9-3d20-4579-82de-6d33a2cb4948)
 
 # Development Environment
