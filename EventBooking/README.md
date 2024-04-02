@@ -5,7 +5,7 @@ I wrote this to give me more experience with web apps, especially those written 
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.loom.com/share/27393c5023d74e7b8b844ee4d79ba5aa?sid=d57c5e00-4eda-4d3f-a55a-420addfc0542)
 
 # Web Pages
 ## MAIN PAGE
@@ -18,8 +18,8 @@ This page allows users to add an event. It is accessible from the header, and th
 This program was developed in VSCode running on a local server. It is written purely in Djano Python, with some CSS.
 
 # Useful Websites
-* [Django Official Tutorial (parts 1-6 especially)](https://docs.djangoproject.com/en/5.0/intro/tutorial01/)
-* [Django Docs - ListView (for homepage)](https://docs.djangoproject.com/en/5.0/ref/class-based-views/generic-display/#listview)
+* [Django Official Tutorial (parts 1-6 especially)](https://docs.djangoproject.com/en/5.0/intro/tutorial01/) - EXTREMELY useful in starting your first Django app, covering all aspects from the admin config to the specific views
+* [Django Docs - ListView (for homepage)](https://docs.djangoproject.com/en/5.0/ref/class-based-views/generic-display/#listview) - Helped in creating the List and Form views that weren't covered in the official tutorial
 
 # Future Work
 
