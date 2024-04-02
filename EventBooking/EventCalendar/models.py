@@ -18,4 +18,4 @@ class Event(models.Model):
         return self.event_date <= timezone.now()
     
     def get_absolute_url(self):
-        return "http://127.0.0.1:8000/calendar"
+        return "http://127.0.0.1:8000/"

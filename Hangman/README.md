@@ -3,8 +3,6 @@ To demonstrate the C++ langauge, I wrote a simple hangman problem that reads a r
 
 This was an exercise of exploring a new language for me, as I've never utilized such a low-level programming language before where the programmer is responsible for handling many more of the finer details.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
 [Software Demo Video](https://www.loom.com/share/c4c5d99a4768404886f00235851c56e9?sid=c2ffdfd6-1b46-411c-bb67-94dad84b7eba)
 
 # Development Environment
