@@ -5,7 +5,7 @@ I was interested in TypeScript because I have worked for years as a website deve
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.loom.com/share/a932b10530c94444ab322c020a6aa97c?sid=8ce760b9-3d20-4579-82de-6d33a2cb4948)
 
 # Development Environment
 This project was completed in VSCode, using the terminal as the user interface. It is purely wirtten in TypeScript, and it relies on the readline npm package to handle the user input.
