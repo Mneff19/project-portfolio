@@ -11,11 +11,9 @@ I was interested in TypeScript because I have worked for years as a website deve
 This project was completed in VSCode, using the terminal as the user interface. It is purely wirtten in TypeScript, and it relies on the readline npm package to handle the user input.
 
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [How to Start a TypeScript Project (Digital Ocean)](https://www.digitalocean.com/community/tutorials/typescript-new-project)
+- [How to Get User Input from Console in TypeScript](https://stackoverflow.com/questions/33858763/console-input-in-typescript)
+- [Readline Module Documentation](https://nodejs.org/api/readline.html#readline_readline)
 
 # Future Work
 - Currently the staggered output is a product of several different timeout functions, it would be ideal to consolidate all output into one function. Perhaps by creating an array of all outputs then iterating through it like that instead of having everything inline

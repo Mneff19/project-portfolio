@@ -1,5 +1,5 @@
 # Overview
-This was a very fun project for me! It is a mock up of an event booking software that allows users to create and RSVP to events. I had never used Django before, and I enjoyed utilizing Python in a web context. Starting the test server requires running the command python3 manage.py runserver, then visiting 127.0.0.1
+This was a very fun project for me! It is a mock up of an event booking software that allows users to create and RSVP to events. I had never used Django before, and I enjoyed utilizing Python in a web context. Starting the test server requires running the command python3 manage.py runserver, then visiting 127.0.0.1:8000.
 
 I wrote this to give me more experience with web apps, especially those written in Python. I thoroughly enjoyed it!
 
@@ -18,10 +18,8 @@ This page allows users to add an event. It is accessible from the header, and th
 This program was developed in VSCode running on a local server. It is written purely in Djano Python, with some CSS.
 
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Django Official Tutorial (parts 1-6 especially)](https://docs.djangoproject.com/en/5.0/intro/tutorial01/)
+* [Django Docs - ListView (for homepage)](https://docs.djangoproject.com/en/5.0/ref/class-based-views/generic-display/#listview)
 
 # Future Work
 

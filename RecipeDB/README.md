@@ -18,9 +18,9 @@ This is the table within the database, and it is stored in the local project dir
 The project was built in VSCode using Python and the SQLite3 library - a base library in Python. Since it is run via the command line, all that is required to test the file is to build the script.
 
 # Useful Websites
-- [How to Start a TypeScript Project (Digital Ocean)](https://www.digitalocean.com/community/tutorials/typescript-new-project)
-- [How to Get User Input from Console in TypeScript](https://stackoverflow.com/questions/33858763/console-input-in-typescript)
-- [Readline Module Documentation](https://nodejs.org/api/readline.html#readline_readline)
+- [TutorialPoint SQLite Python Overview](https://www.tutorialspoint.com/sqlite/sqlite_python.htm)
+- [TutorialPoint AutoIncrement Docs](https://www.tutorialspoint.com/sqlite/sqlite_using_autoincrement.htm)
+- [Checking if Table Exists](https://stackoverflow.com/questions/1601151/how-do-i-check-in-sqlite-whether-a-table-exists)
 
 # Future Work
 
