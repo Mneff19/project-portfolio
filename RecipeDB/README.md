@@ -7,7 +7,7 @@ I wrote this as a maiden voyage with SQL in Python. To this point I've only ever
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how created the Relational Database.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.loom.com/share/37c2daa57d81409980af8407e183b677?sid=eeb7f59e-0b72-4ceb-9bc5-181f47ddafc4)
 
 # Relational Database
 I'm using an SQLite3 database to store the recipes, including a primary key, recipe name, ingredients array, and instructions array. 
@@ -18,9 +18,9 @@ This is the table within the database, and it is stored in the local project dir
 The project was built in VSCode using Python and the SQLite3 library - a base library in Python. Since it is run via the command line, all that is required to test the file is to build the script.
 
 # Useful Websites
-- [TutorialPoint SQLite Python Overview](https://www.tutorialspoint.com/sqlite/sqlite_python.htm)
-- [TutorialPoint AutoIncrement Docs](https://www.tutorialspoint.com/sqlite/sqlite_using_autoincrement.htm)
-- [Checking if Table Exists](https://stackoverflow.com/questions/1601151/how-do-i-check-in-sqlite-whether-a-table-exists)
+- [TutorialPoint SQLite Python Overview](https://www.tutorialspoint.com/sqlite/sqlite_python.htm) - Extremely helpful tutorial showing the basic CRUD commands in SQLite3
+- [TutorialPoint AutoIncrement Docs](https://www.tutorialspoint.com/sqlite/sqlite_using_autoincrement.htm) - Used to establish an auto-incrementing ID (primary key) for the database
+- [Checking if Table Exists](https://stackoverflow.com/questions/1601151/how-do-i-check-in-sqlite-whether-a-table-exists) - Used to ensure that the table exists before proceeding
 
 # Future Work
 
