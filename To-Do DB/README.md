@@ -3,7 +3,8 @@ To-Do DB is a showcase of how Google Firebase's Firestore can be integrated with
 
 I wrote this program to build a basic interface with a cloud database, and to work a little with a NoSQL database. It also provided an opportunity to iterate upon and improve some of the code-level practices in [Recipe DB](https://github.com/Mneff19/project-portfolio/tree/main/RecipeDB).
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video - Interface Walkthrough](https://www.loom.com/share/8f76ac265b834ab7a45287d55fbd21bb?sid=f5609955-be2d-4282-8c95-1c08c61eb6ac)
+[Software Demo Video - Code Explanation](https://www.loom.com/share/a842e711a08745f1b32a8a742c8eb9e8?sid=bd049c0d-c4e4-45fc-9a73-2f615bfd50a1)
 
 # Cloud Database
 The cloud database is Firestore, the solution provided by Google's Firebase. The database is orgranized under one primary collection, then sub-organized by user IDs. Each user ID then has a collection containing all of their personal to-do items. This structure is unique to NoSQL databases and was interesting to research and implement.
